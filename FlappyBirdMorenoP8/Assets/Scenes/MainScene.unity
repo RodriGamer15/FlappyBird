@@ -149,8 +149,8 @@ Transform:
   m_GameObject: {fileID: 171210901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 3.7548, z: 0}
-  m_LocalScale: {x: 1, y: 1.0055224, z: 1}
+  m_LocalPosition: {x: -0.01, y: 3.767, z: 0}
+  m_LocalScale: {x: 1, y: 1.0079356, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732760537}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1.5, y: -1.68}
+  m_EffectDistance: {x: 1.8, y: -1.68}
   m_UseGraphicAlpha: 1
 --- !u!114 &243053202
 MonoBehaviour:
@@ -857,7 +857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 25.313705}
   m_SizeDelta: {x: 200, y: 50.62741}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372620069
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1.5, y: -1.68}
+  m_EffectDistance: {x: 1.8, y: -1.68}
   m_UseGraphicAlpha: 1
 --- !u!114 &1372620070
 MonoBehaviour:
@@ -1035,7 +1035,7 @@ Transform:
   m_GameObject: {fileID: 1732760536}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.44, y: -3.12, z: 0}
+  m_LocalPosition: {x: 20.43, y: -3.12, z: 0}
   m_LocalScale: {x: 1, y: 0.9941, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8f6ab932a9da147b8f0d9919e6c884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upForce: 30
+  upForce: 25
 --- !u!95 &1900024751
 Animator:
   serializedVersion: 5
@@ -1430,8 +1430,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 243053199}
-  scoreText: {fileID: 0}
-  gameOver: 1
+  scoreText: {fileID: 1372620070}
+  gameOver: 0
   scrollSpeed: -1.5
 --- !u!4 &2042396408
 Transform:
@@ -1461,10 +1461,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   columnPoolSize: 5
-  columnPrefab: {fileID: 0}
+  columnPrefab: {fileID: 5989623251400187732, guid: db21b6768fdf1424aa92885f8c763a3b, type: 3}
   spawnRate: 0
-  columnMin: -1
-  columnMax: 3.5
+  columnMin: -2
+  columnMax: 2
 --- !u!1 &2091285938
 GameObject:
   m_ObjectHideFlags: 0
